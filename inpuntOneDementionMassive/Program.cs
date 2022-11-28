@@ -8,7 +8,14 @@ namespace inputOneDementionMassive
     {
         static void Main(string[] args)
         {
-            int[] mas = { 5, 8, 1, 9 };
+            //ввод элементов массива в столбик
+            int n = Convert.ToInt32(Console.ReadLine());
+            int[] mas = new int[n];
+
+            for (int i = 0; i < n; i++)
+            {
+                mas[i] = Convert.ToInt32(Console.ReadLine());
+            }
             foreach (var item in mas)
             {
                 Console.WriteLine(item);
