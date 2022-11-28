@@ -9,6 +9,7 @@ namespace inputOneDementionMassive
         static void Main(string[] args)
         {
             //ввод элементов массива в строку
+            Console.WriteLine("Введи элементы по бртски");
             int n = Convert.ToInt32(Console.ReadLine());
             int[] mas = new int[n];
             string[] temp = Console.ReadLine().Split();
